@@ -29,9 +29,10 @@ const Sidebar = () => {
           <input placeholder="Search or Start a New Chat" type="text"></input>
       </div>  
       </div>
-      <div className="sidebar__chats"></div>
+      <div className="sidebar__chats">
+      <SidebarChat addNewChat></SidebarChat>
       <SidebarChat></SidebarChat>
-      <h1>Sidebar Chat</h1>
+      </div>
     </div>
   );
 };
